@@ -40,6 +40,7 @@ namespace McmBlog
                 app.UseHsts();
             }
 
+            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
